@@ -82,10 +82,3 @@ footer{
     padding: 16px 0px;
 }
 
-@media screen and(max-width:640px){
-    .container{
-        width: 241px;
-        max-width: 100%;
-    }
-    
-}
