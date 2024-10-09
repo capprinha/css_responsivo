@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC Shoes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EBAC Shoes</h1>
+            <nav>
+                <a href="#sobre" title="Sobre a loja">Sobre a loja</a>
+                <a href="#produto" title="Produtos">Produtos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- sobre a loja -->
+
+    <section id="sobre">
+        <div class="container sobre-loja">
+            <img src="./img/loja.jpg" alt="Loja">
+            <div class="center">
+                <h2>Sobre a loja</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est necessitatibus omnis cupiditate iste. Vero dolor aliquid cupiditate qui minima, laborum facilis voluptate quo iure amet, praesentium voluptatem dignissimos similique culpa!
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur suscipit veritatis fugit, perspiciatis tempora natus quod accusantium. Perferendis autem deleniti pariatur ratione laudantium quas in labore nostrum temporibus, vero dolorem!
+                </p>
+            </div>
+    </section>
+
+    <!-- produtos -->
+
+    <section id="produto">
+        <h2 class="container titulo-2">Produtos</h2>
+        <div class="container produtos">
+            <article>
+                <div id="slick">
+                    <img src="./img/sapato.jpg" alt="Sapato preto">
+                    <img src="./img/sapato_01.jpg" alt="sapato preto">
+                </div>
+                <p>
+                    Sapato Modelo Novo
+                </p>
+                <p>
+                    Disponivel em varios tamanhos
+                </p>
+                <button>Adicionar no Carrinho</button>
+            </article>
+            <article>
+                <div id="slick1">
+                    <img src="./img/sapato.jpg" alt="Sapato preto">
+                    <img src="./img/sapato_02.jpg" alt="Homem usando sapato">
+                </div>
+                <p>
+                    Sapato Modelo Novo
+                </p>
+                <p>
+                    Disponivel em varios tamanhos
+                </p>
+                <button>Adicionar no Carrinho</button>
+            </article>
+            <article>
+                <div id="slick2">
+                    <img src="./img/sapato.jpg" alt="Sapato preto">
+                    <img src="./img/sapato_01.jpg" alt="sapato preto">
+                </div>
+                <p>
+                    Sapato Modelo Novo
+                </p>
+                <p>
+                    Disponivel em varios tamanhos
+                </p>
+                <button>Adicionar no Carrinho</button>
+            </article>
+            <article>
+                <div id="slick3">
+                    <img src="./img/sapato.jpg" alt="Sapato preto">
+                    <img src="./img/sapato_02.jpg" alt="Homem usando sapato">
+                </div>
+                <p>
+                    Sapato Modelo Novo
+                </p>
+                <p>
+                    Disponivel em varios tamanhos
+                </p>
+                <button>Adicionar no Carrinho</button>
+            </article>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="container">
+            &copy; -- EBAC Shoes -- Todos direito reservados -- 2024
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('#slick').slick({
+                arrows:false,
+                autoplay:true,
+                autoplaySpeed:2000
+            });
+
+            $('#slick1').slick({
+                arrows:false,
+                autoplay:true,
+                autoplaySpeed:2200
+            });
+
+            $('#slick2').slick({
+                arrows:false,
+                autoplay:true,
+                autoplaySpeed:2400
+            });
+
+            $('#slick3').slick({
+                arrows:false,
+                autoplay:true,
+                autoplaySpeed:2600
+            });
+            
+        })
+    </script>
+
+</body>
+</html>
