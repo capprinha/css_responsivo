@@ -16,6 +16,10 @@ header{
     background-color: rgb(80, 80, 255);
     color: #fff;
     padding: 16px 0px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
 header nav a {
     color: #fff;
@@ -82,3 +86,40 @@ footer{
     padding: 16px 0px;
 }
 
+@media screen and (max-width: 1024px) {
+    header .container{
+        display: block;
+        text-align: center;
+    }
+    header h1{
+        padding: 10px 0px;
+    }
+    .center{
+        display: block;
+        text-align: center;
+    }
+    .sobre-loja{
+        display: grid;
+        grid-template-columns: 90%;
+        justify-content: center;
+    }
+    .sobre-loja img{
+        margin-bottom: 25px;
+    }
+    .titulo-2{
+        text-align: center;
+    }
+    .produtos{
+        display: grid;
+        grid-template-columns: 90%;
+        justify-content: center;
+    }
+    .produtos article{
+        margin-bottom: 25px;
+    }
+    footer{
+        font-size: 12px;
+    }
+
+} 
+    
